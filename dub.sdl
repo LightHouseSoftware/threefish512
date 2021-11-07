@@ -1,0 +1,5 @@
+name "threefish512"
+description "Minimal implementation of Threefish512 block cipher algorithm (port from reference C implementation from here: http://cartman-cipher.narod.ru/mirror/threefish512.zip)"
+authors "Oleg Bakharev (aquaratixc), LightHouse Software"
+copyright "Copyright © 2021, Oleg Bakharev"
+license "ESL 1.0"
