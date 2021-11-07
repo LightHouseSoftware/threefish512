@@ -187,8 +187,9 @@ class Threefish512
 		ulong[8] K;
 		ulong[2] T;
 		ulong[9] key;
-	
-		ulong kNw = 6148914691236517205L;
+
+		// C240 constant
+		ulong kNw =  0x1BD11BDAA9FC1A22;
 		
 		memcpy(&K[0], &keyData[0], 64);
 		memcpy(&T[0], &tweakData[0], 16);
